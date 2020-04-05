@@ -1,0 +1,159 @@
+{
+  "project_info": {
+    "project_number": "509708555408",
+    "firebase_url": "https://test-f15b5.firebaseio.com",
+    "project_id": "test-f15b5",
+    "storage_bucket": "test-f15b5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:509708555408:android:40503f1fa13a27c4fb3415",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "509708555408-13ivdioebgoqr7vdmsbkjl7ti70104h2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.myapplication",
+            "certificate_hash": "0ae507f6a9e6a9836c453b4edee46b877f319995"
+          }
+        },
+        {
+          "client_id": "509708555408-atkb7e8ulphb5u3eseqnasktm8c5oiuf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDgoZtiU24dNIirarAv8O5iTefOpTe1tw8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "509708555408-atkb7e8ulphb5u3eseqnasktm8c5oiuf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:509708555408:android:a19b7f566204c945fb3415",
+        "android_client_info": {
+          "package_name": "com.example.mytest1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "509708555408-9ogqtgekpo32epe3u4285ti2if8om97q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mytest1",
+            "certificate_hash": "0ae507f6a9e6a9836c453b4edee46b877f319995"
+          }
+        },
+        {
+          "client_id": "509708555408-atkb7e8ulphb5u3eseqnasktm8c5oiuf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDgoZtiU24dNIirarAv8O5iTefOpTe1tw8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "509708555408-atkb7e8ulphb5u3eseqnasktm8c5oiuf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:509708555408:android:9a683e5cdcf75bcffb3415",
+        "android_client_info": {
+          "package_name": "com.example.mytestlayout"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "509708555408-3olq17p2fuco5bsctse5574up4e00gok.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mytestlayout",
+            "certificate_hash": "0ae507f6a9e6a9836c453b4edee46b877f319995"
+          }
+        },
+        {
+          "client_id": "509708555408-atkb7e8ulphb5u3eseqnasktm8c5oiuf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDgoZtiU24dNIirarAv8O5iTefOpTe1tw8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "509708555408-atkb7e8ulphb5u3eseqnasktm8c5oiuf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:509708555408:android:ac9dda3c0387b1fdfb3415",
+        "android_client_info": {
+          "package_name": "com.example.vehilealertapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "509708555408-33nn4j7qfee4qdbcuk34tuvl18b6idkq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.vehilealertapp",
+            "certificate_hash": "0ae507f6a9e6a9836c453b4edee46b877f319995"
+          }
+        },
+        {
+          "client_id": "509708555408-atkb7e8ulphb5u3eseqnasktm8c5oiuf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDgoZtiU24dNIirarAv8O5iTefOpTe1tw8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "509708555408-atkb7e8ulphb5u3eseqnasktm8c5oiuf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

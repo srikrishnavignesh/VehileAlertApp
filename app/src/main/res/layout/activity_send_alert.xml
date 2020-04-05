@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:fillViewport="true"
+    android:background="@color/main_color"
+    tools:context=".SendAlert">
+<RelativeLayout
+    android:id="@+id/layout"
+    android:layout_margin="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="monospace"
+        android:text="v-track"
+        android:textColor="@color/text_color"
+        android:textSize="50sp" />
+    <EditText
+        android:layout_marginTop="125dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/name"
+        android:hint="enter name here"/>
+    <EditText
+        android:layout_marginTop="25dp"
+        android:layout_below="@id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="enter contact no"
+        android:id="@+id/contact_no"/>
+    <EditText
+        android:layout_marginTop="25dp"
+        android:layout_below="@id/contact_no"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="enter vehicle reg_no"
+        android:id="@+id/reg_no"/>
+    <EditText
+        android:layout_marginTop="25dp"
+        android:layout_below="@id/reg_no"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minLines="2"
+        android:maxLines="5"
+        android:scrollbars="vertical"
+        android:ellipsize="end"
+        android:hint="enter details that\n uniquely identifies your car"
+        android:id="@+id/car_details"/>
+    <Button
+        android:textColor="@color/text_color"
+        android:background="@color/bg_color"
+        android:layout_marginTop="15dp"
+        android:layout_below="@id/car_details"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/loc"
+        android:text="get location"/>
+    <TextView
+        android:layout_below="@id/loc"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/latitude"
+        android:text="latitude"/>
+    <TextView
+        android:layout_below="@id/latitude"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/longitude"
+        android:text="longitude"/>
+
+    <ImageView
+        android:background="@drawable/car_default_img"
+        android:layout_below="@id/longitude"
+        android:layout_marginTop="15dp"
+        android:layout_width="400dp"
+        android:layout_height="400dp"
+        android:id="@+id/img"/>
+    <Button
+        android:textColor="@color/text_color"
+        android:background="@color/bg_color"
+        android:text="get_image"
+        android:layout_below="@id/img"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/get_image"
+        android:layout_marginBottom="10dp"/>
+    <Button
+        android:textColor="@color/text_color"
+        android:background="@color/bg_color"
+        android:layout_below="@id/get_image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/send"
+        android:text="Send"
+        android:layout_marginBottom="30dp"/>
+
+</RelativeLayout>
+</ScrollView>
